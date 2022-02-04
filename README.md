@@ -4,6 +4,8 @@ This step is unecessary if the code is already on the computer, you can check it
 In order to modify the code and run it at all, open Visual Studio Code on you laptop, and if necessary, hit open folder and then select Mario-java-main. This should open all of the code for the project.
 # Changing the running speed and jump height of Mario
 Changing the running speed and jump height of Mario is pretty simple, in order to change the jump height of Mario go to the model folder, and then open the hero folder, and open the Mario class. On lines 60 through 67 change the values of  setVelX(5); and   setVelX(-5); to change the speed Mario runs in those directions. And in order to change Mario's jump height go to line 54 and change the value of setVelY(12);
+# Changing Goomba Speed
+In order to change the enemy speed go to the model folder, open the enemy folder and then open the Goomba file. On line 12 change the value of  setVelX(3); to whatever you would like.
 # Adding another map
 In order to add a map go to the view folder and then open the MapSelection File. And on line 45 add the line of code maps.add("Map 3.png"); 
 # Changing The Title Screen
