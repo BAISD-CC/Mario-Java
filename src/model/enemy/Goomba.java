@@ -9,6 +9,8 @@ public class Goomba extends Enemy{
 
     public Goomba(double x, double y, BufferedImage style) {
         super(x, y, style);
+        // Changes Goomba speed
+        // Default = 3
         setVelX(3);
     }
 

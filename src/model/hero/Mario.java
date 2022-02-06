@@ -50,19 +50,23 @@ public class Mario extends GameObject{
     public void jump(GameEngine engine) {
         if(!isJumping() && !isFalling()){
             setJumping(true);
-            //This is mario's height jump, if you change the value he'll jump different heights.
+            //This is mario's height jump, if you change the value he'll jump different heights. 
+            //Default = 12
             setVelY(12);
             engine.playJump();
         }
     }
 
+    // Mario horizontal speed
     public void move(boolean toRight, Camera camera) {
         if(toRight){
             //This controls mario's speed towards the right
+            //default = 5
             setVelX(5);
         }
         else if(camera.getX() < getX()){
             //This is mario's speed heading towards the left
+            //Default = -5
             setVelX(-5);
         }
 

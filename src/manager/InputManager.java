@@ -26,6 +26,8 @@ public class InputManager implements KeyListener, MouseListener{
                 currentAction = ButtonAction.JUMP;
             }
         }
+        //Put the new jump command right beneath this line
+        
         else if(keyCode == KeyEvent.VK_S){
             if(status == GameStatus.START_SCREEN || status == GameStatus.MAP_SELECTION)
                 currentAction = ButtonAction.GO_DOWN;

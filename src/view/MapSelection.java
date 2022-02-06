@@ -42,6 +42,7 @@ public class MapSelection {
         maps.add("Map 1.png");
         maps.add("Map 2.png");
         //Add maps.add("Map 3.png"); to add map 3 
+        
     }
 
     private MapSelectionItem[] createItems(ArrayList<String> maps){
