@@ -38,7 +38,7 @@ public class GameEngine implements Runnable {
         soundManager = new SoundManager();
         mapManager = new MapManager();
 
-        JFrame frame = new JFrame("Super Dockett Bros.");
+        JFrame frame = new JFrame("Super Kruskie Bros.");
         frame.add(uiManager);
         frame.addKeyListener(inputManager);
         frame.addMouseListener(inputManager);

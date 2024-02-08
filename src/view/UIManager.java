@@ -34,7 +34,7 @@ public class UIManager extends JPanel{
         this.coinIcon = loader.getSubImage(sprite, 1, 5, 48, 48);
         this.selectIcon = loader.loadImage("/select-icon.png");
         //Change this line of code in order to change the image that loads at start-up
-        this.startScreenImage = loader.loadImage("/start-screen.png");
+        this.startScreenImage = loader.loadImage("/kruskie-screen.png");
         this.helpScreenImage = loader.loadImage("/help-screen.png");
         this.aboutScreenImage = loader.loadImage("/about-screen.png");
         this.gameOverScreen = loader.loadImage("/game-over.png");

@@ -18,15 +18,15 @@ In order to change the enemy speed go to the model folder, open the enemy folder
 In order to add a map go to the view folder and then open the MapSelection File. And on line 45 add the line of code maps.add("Map 3.png"); 
 
 # Step 6: Changing The Title Screen
-If we put Mr.Dockett in the game then it is no longer Super Mario Bros. so first thing we need to do is change the title screen. Open UIManager in the view folder. 
+If we put Mr.Kruskie in the game then it is no longer Super Mario Bros. so first thing we need to do is change the title screen. Open UIManager in the view folder. 
 
-On line 37 simply change the value inside of  this.startScreenImage = loader.loadImage("/start-screen.png"); to this.startScreenImage = loader.loadImage("/dockett-screen.png");
+On line 37 simply change the value inside of  this.startScreenImage = loader.loadImage("/start-screen.png"); to this.startScreenImage = loader.loadImage("/kruskie-screen.png");
 
 # Step 7: Changing Mario
-Changing Mario is almost identical to changing the title screen. Go to the ImageLoader in the view folder and go to line 15. Change mario-forms in the parentheses. To dockett-forms. This will make Mario Mr. Dockett.
+Changing Mario is almost identical to changing the title screen. Go to the ImageLoader in the view folder and go to line 15. Change mario-forms in the parentheses. To kruskie-forms. This will make Mario Mr. Kruskie.
 
 # Step 8: Changing Jump
-Mr.Dockett doesn't like jumping, so in order to do it less often, we'll make the jump a dedicated button. In order to do this go to the manager folder, and then open the Input Manager class. On line 30 put the following:
+Mr.Kruskie doesn't like jumping, so in order to do it less often, we'll make the jump a dedicated button. In order to do this go to the manager folder, and then open the Input Manager class. On line 30 put the following:
 if (keyCode == KeyEvent.VK_SPACE) {
             currentAction = ButtonAction.JUMP;
         }
